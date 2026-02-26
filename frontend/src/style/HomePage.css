@@ -1,0 +1,26 @@
+.home-page{
+    align_items: center;
+    text-align: center;
+    width: 100vw;
+
+}
+
+a{color:white;}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 10vh;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    height: 80px;
+    width: 250px;
+    font-size: 30px;
+}

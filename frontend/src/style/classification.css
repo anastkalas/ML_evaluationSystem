@@ -1,0 +1,84 @@
+.classification{
+    height: 90%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -40vh;
+}
+
+.sect1{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* fixed property name and centers children horizontally */
+    text-align: center;
+    width: 40%;
+    max-width: 520px; /* keeps layout usable on small screens */
+    margin: 20px auto; /* centers the .sect1 block in its container */
+    gap: 12px; /* spacing between children */
+}
+.sect1 input{
+    height: 30px;
+    width: 100%;
+    max-width: 420px;
+    box-sizing: border-box; /* include padding/border in width */
+}
+
+.sect1 button{
+    width: 500px;
+}
+
+.sect1 .upload-section{
+    display:flex;
+    flex-direction: row;
+}
+
+.sect1 .upload-section .upload-button{
+    width: 200px;
+    font-size: 15px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+label{
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    width: 40vw;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.table-section{
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+thead tr .acc, .prec, .rec, .f1, .auc{
+    margin-left: 10px;
+}
+
+.matrix {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.downloadFile{
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+}

@@ -1,0 +1,89 @@
+*{
+    display: center;
+    justify-content: center;
+    align-items: flex-start; /* keeps content at the top */
+}
+
+input{
+    font-size: 16px; /* px */
+}
+
+.tuning-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* stacks dropdowns vertically */
+    align-items: flex-start; /* keeps content at the top */
+    width: 100%; /* percentage of viewport width */
+    margin-top: 20px; /* px */
+}
+
+.params-dropdown {
+  width: 450px; /* px */
+  margin: 20px auto; /* px */
+  font-family: system-ui, sans-serif;
+  backgorund: black;
+}
+
+/* Button Styling */
+.dropdown-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* px */
+  padding: 10px; /* px */
+  border: 1px solid #b3b3b3;
+  background: #000000; /* black background */
+  color: #ffffff; /* white text */
+  border-radius: 6px; /* px */
+  cursor: pointer;
+  font-size: 16px; /* px */
+}
+
+/* Arrow Animation */
+.arrow {
+  transition: transform 0.6s ease-in-out; /* duration: 0.3 s */
+}
+
+.arrow.open {
+  transform: rotate(180deg); /* degrees (°) */
+}
+
+/* Dropdown Animation */
+.dropdown-panel {
+  overflow: hidden;
+  max-height: 0; /* px */
+  opacity: 0; /* dimensionless */
+  transition:
+    max-height 0.6s ease-in-out,
+    opacity 0.6s ease-in-out; /* duration: 0.4 s */
+}
+
+.dropdown-panel.open {
+  max-height: 1000px; /* px */
+  opacity: 1;
+}
+
+/* Sub-Lists */
+.param-list {
+  margin: 10px 0 0; /* px */
+  padding-left: 20px; /* px */
+}
+
+.param-list ul {
+  padding-left: 16px; /* px */
+}
+
+.tuning{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  items-align: center;
+}
+
+.save{
+  font-size: 18px;
+  width: 200px;
+  display: block;
+  margin: 20px;
+  align-self: center;
+}

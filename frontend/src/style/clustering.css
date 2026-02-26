@@ -1,0 +1,47 @@
+.clustering-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+button{
+    font-size: 20px;
+    width: 40vw;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.sect1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.download-dataset{
+    font-size: 20px;
+}
+
+.state-test{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+table{
+    font-size: 20px;
+    border-collapse: collapse; width: 80%; margin-top: 20px;
+    th, td{
+        border: 1px solid black;
+        padding: 8px; text-align: left;
+    }
+}
+
+label{
+    font-size: 20px;
+}

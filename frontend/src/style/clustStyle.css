@@ -1,0 +1,8 @@
+.clustering-tuning-page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* stacks dropdowns vertically */
+    align-items: center; /* keeps content at the top */
+    width: 100%; /* percentage of viewport width */
+    margin-top: 20px; /* px */
+}

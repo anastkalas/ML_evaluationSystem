@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+downloads/
+uploads/
+*.csv
+*.png
+
+# React / Node
+node_modules/
+build/
+.env
+
+# OS files
+.DS_Store
