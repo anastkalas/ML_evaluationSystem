@@ -12,19 +12,6 @@ export default function Clustering() {
     const [taskId, setTaskId] = useState(null);
     const [metrics, setMetrics] = useState(null);
 
-    /*useEffect(() => {
-        const loadMetrics = async () => {
-            try{
-                const response = await axios.get("http://localhost:5000/get_latest_metrics");
-                setMetrics(response.data);
-                console.log(response.data);                
-            }catch (error){
-                console.error("Error fetching metrics: ", error);
-            }
-        };
-        loadMetrics();
-    }, []);*/
-
     useEffect(() => {
         let interval;
 
