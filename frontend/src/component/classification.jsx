@@ -173,7 +173,7 @@ export default function Classification() {
 
     return (
         <div className="classification">
-            <h1 className="title"> Web-Auto ML Classification System </h1>
+            <h1 className="title"> Classification System </h1>
             <p>Upload a dataset, configure the experiment and compare multiple classification algorithms</p>
             <h2 className="section1">1.Upload Dataset & Configure and Execute Experiment</h2>
             <div className="sect1">
