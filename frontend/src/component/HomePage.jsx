@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div className="home-page">
       <h1 className="title">
-        Machine Learning Application Home
+        Evaluation System
         </h1>
         <li>
             <button className="classfication-button">
